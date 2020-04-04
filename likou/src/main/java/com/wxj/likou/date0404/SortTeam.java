@@ -1,8 +1,4 @@
 package com.wxj.likou.date0404;
-
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,8 +28,8 @@ public class SortTeam {
             return votes[0];
         }
         Map<String, Integer> map = new HashMap<>();
-        /**
-         * 队伍名称, 票数
+        /*
+          队伍名称, 票数
          */
         for (int i = 0; i < votes.length ; i++) {
             String[] split = votes[i].split("");
