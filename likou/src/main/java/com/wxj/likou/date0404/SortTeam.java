@@ -46,49 +46,6 @@ public class SortTeam {
                 }
             }
         }
-
-
         return result;
     }
-}
-
-class RankTeam {
-    private String team;
-    private Integer total;
-    private String position;
-    private Integer positionTotal;
-    public String getTeam() {
-        return team;
-    }
-
-    public void setTeam(String team) {
-        this.team = team;
-    }
-
-    public Integer getTotal() {
-        return total;
-    }
-
-    public void setTotal(Integer total) {
-        this.total = total;
-    }
-
-    public String getPosition() {
-        return position;
-    }
-
-    public void setPosition(String position) {
-        this.position = position;
-    }
-
-    public Integer getPositionTotal() {
-        return positionTotal;
-    }
-
-    public void setPositionTotal(Integer positionTotal) {
-        this.positionTotal = positionTotal;
-    }
-
-
-
 }
