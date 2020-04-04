@@ -2,26 +2,14 @@ package com.wxj.likou.date0403;
 import java.util.ArrayList;
 import java.util.List;
 /**  
-* <p>@ClassName: Solution  </p>
+* <p>@ClassName: Sum  </p>
 * <p>@Description: 力扣算法练习---两数之合 </p>
 * <p>@author: wxj  </p>
 * <p>@date: 2020/4/3</p>
 * <p>@Tel:18772118541</p>
 * <p>@email:18772118541@163.com</p>
 */
-public class Solution {
-    public static void main(String[] args) {
-        int[] result = new int[4];
-        result[0] = 2;
-        result[1] = 7;
-        result[2] = 11;
-        result[3] = 15;
-        int[] ints = twoSum(result, 9);
-        for (int i:ints) {
-            System.out.println(i);
-        }
-    }
-
+public class Sum {
     public static int[] twoSum(int[] nums, int target) {
         /**
         * <p>@Description:给一个数组： 2，7，11，15，一个目标：9，需返回2，t的下标</p>
