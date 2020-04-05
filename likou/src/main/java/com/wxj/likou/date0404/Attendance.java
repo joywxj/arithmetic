@@ -17,13 +17,9 @@ public class Attendance {
             if (str.equals("A")) {
                 a++;
             }
-
-            if (str.equals("L")) {
-                l++;
-            }
         }
 
-        if (a <= 1 && l <= 2) { 
+        if (a <= 1 && !s.contains("LLL")) {
             return true;
         }
         return false;

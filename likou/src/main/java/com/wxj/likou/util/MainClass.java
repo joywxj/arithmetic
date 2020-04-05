@@ -17,10 +17,10 @@ public class MainClass {
 //        int result = MastLengString.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\\");
 //        int[] nums1 = {1, 2};
         int[] nums2 = {6,5,4,8};
-        boolean result = Attendance.checkRecord("PPALLL");
+        boolean result = Attendance.checkRecord("LALL");
 //        for (int i = 0; i < result.length ; i++) {
-////            System.out.println(result[i]);
-////        }
+//            System.out.println(result[i]);
+//        }
         System.out.println("结果："+result);
     }
 }
