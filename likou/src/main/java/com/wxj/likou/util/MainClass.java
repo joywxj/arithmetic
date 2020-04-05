@@ -1,6 +1,7 @@
 package com.wxj.likou.util;
 
 import com.wxj.likou.date0403.MastLengString;
+import com.wxj.likou.date0404.Attendance;
 import com.wxj.likou.date0404.SmallThanSelf;
 
 /**
@@ -16,10 +17,10 @@ public class MainClass {
 //        int result = MastLengString.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\\");
 //        int[] nums1 = {1, 2};
         int[] nums2 = {6,5,4,8};
-        int[] result = SmallThanSelf.smallerNumbersThanCurrent(nums2);
-        for (int i = 0; i < result.length ; i++) {
-            System.out.println(result[i]);
-        }
-//        System.out.println("结果："+result);
+        boolean result = Attendance.checkRecord("PPALLL");
+//        for (int i = 0; i < result.length ; i++) {
+////            System.out.println(result[i]);
+////        }
+        System.out.println("结果："+result);
     }
 }
